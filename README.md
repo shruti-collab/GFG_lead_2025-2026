@@ -5,11 +5,14 @@ A modern, responsive Next.js website showcasing the GFG Campus Body team at Gove
 ## Features
 
 - ✨ Modern design with Tailwind CSS
-- 🎭 Smooth animations with Framer Motion
+- � Dark/Light mode toggle with next-themes
+- �🎭 Smooth animations with Framer Motion
 - 📱 Fully responsive layout
 - 🎨 shadcn/ui components
 - ⚡ Next.js 14 with App Router
 - 🔍 TypeScript support
+- 🎯 Team member profiles with detailed dialogs
+- 🚀 Performance optimized
 
 ## Tech Stack
 
@@ -19,6 +22,7 @@ A modern, responsive Next.js website showcasing the GFG Campus Body team at Gove
 - **Animations**: Framer Motion
 - **Icons**: Lucide React
 - **Language**: TypeScript
+- **Theme**: next-themes for dark/light mode
 
 ## Quick Start
 
@@ -54,22 +58,44 @@ A modern, responsive Next.js website showcasing the GFG Campus Body team at Gove
 ```
 ├── app/
 │   ├── globals.css       # Global styles
-│   ├── layout.tsx        # Root layout
+│   ├── layout.tsx        # Root layout with theme provider
 │   └── page.tsx          # Home page
 ├── components/
 │   ├── ui/              # shadcn/ui components
-│   ├── Header.tsx       # Navigation header
+│   ├── Header.tsx       # Navigation header with theme toggle
 │   ├── Footer.tsx       # Site footer
 │   ├── TeamCard.tsx     # Individual team member card
 │   ├── TeamGrid.tsx     # Team members grid
-│   └── PersonDialog.tsx # Member detail modal
+│   ├── PersonDialog.tsx # Member detail modal
+│   ├── mode-toggle.tsx  # Theme toggle component
+│   └── theme-provider.tsx # Theme provider wrapper
 ├── data/
 │   └── team.ts          # Team members data
 ├── lib/
 │   └── utils.ts         # Utility functions
 └── public/
-    └── team/            # Team member photos
+    └── team/            # Team member photos & GFG logo
 ```
+
+## Features Implemented
+
+### Dark/Light Mode Toggle
+- Seamless theme switching using next-themes
+- Persistent theme selection
+- System theme detection
+- Dark mode optimized styling for all components
+
+### Team Member Cards
+- Interactive hover effects
+- Detailed member dialogs
+- Social media links
+- Professional styling with glassmorphism effects
+
+### Responsive Design
+- Mobile-first approach
+- Tablet and desktop optimizations
+- Flexible grid layouts
+- Touch-friendly interactions
 
 ## Customization
 
@@ -99,6 +125,7 @@ export const TEAM: Member[] = [
 - **Colors**: Modify GFG brand colors in `tailwind.config.js`
 - **Components**: Edit component files in `components/`
 - **Global styles**: Update `app/globals.css`
+- **Theme**: Customize dark/light mode colors
 
 ### Deployment
 
