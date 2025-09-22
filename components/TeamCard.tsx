@@ -79,9 +79,8 @@ export default function TeamCard({ member, onOpen }: TeamCardProps) {
           <h4 
             className="text-xl font-bold mb-2 transition-colors"
             style={{ 
-              color: isDark ? '#ffffff' : '#2f8d46',
-              '--tw-text-opacity': '1'
-            }}
+              color: isDark ? '#ffffff' : '#2f8d46'
+            } as React.CSSProperties}
           >
             {member.name}
           </h4>
