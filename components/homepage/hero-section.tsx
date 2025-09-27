@@ -153,7 +153,7 @@ export default function HeroSection() {
               className="w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 rounded-md font-semibold transition-all duration-200"
             >
               <a
-                href="#team"
+                href="#events"
                 className="flex items-center justify-center gap-2"
               >
                 Explore Our Work
