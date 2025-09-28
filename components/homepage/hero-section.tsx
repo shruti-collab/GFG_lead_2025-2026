@@ -52,7 +52,7 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden pt-12"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden md:pt-12"
     >
       {/* Enhanced Background with Radial Glows */}
       <div className="absolute inset-0 bg-gradient-to-br from-background via-background to-muted/30 dark:to-muted/20">
