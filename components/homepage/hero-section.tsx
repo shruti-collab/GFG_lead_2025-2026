@@ -168,7 +168,7 @@ export default function HeroSection() {
               asChild
             >
               <a
-                href="#contact"
+                href="https://linktr.ee/gfgscgcet"
                 className="flex items-center justify-center gap-2"
               >
                 Join Our Community

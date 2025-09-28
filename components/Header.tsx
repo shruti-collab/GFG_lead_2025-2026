@@ -45,7 +45,7 @@ export default function Header() {
            <div className="flex items-center ml-2">
              <ModeToggle />
             <Link
-              href="#contact"
+              href="https://linktr.ee/gfgscgcet"
               className="ml-2 bg-primary hover:bg-primary/90 text-primary-foreground px-3 xl:px-5 py-2 rounded-md font-semibold shadow-none transition-all duration-200 text-sm xl:text-base whitespace-nowrap"
             >
               Join Us
@@ -66,7 +66,7 @@ export default function Header() {
             ))}
             <ModeToggle />
             <Link
-              href="#contact"
+              href="https://linktr.ee/gfgscgcet"
               className="ml-1 bg-primary hover:bg-primary/90 text-primary-foreground px-3 py-1.5 rounded-md font-semibold  transition-all duration-200"
             >
               Join Us
@@ -108,7 +108,7 @@ export default function Header() {
               </Link>
             ))}
             <Link
-              href="#contact"
+              href="https://linktr.ee/gfgscgcet"
               onClick={() => setIsMenuOpen(false)}
               className="block px-3 py-2 mt-1 bg-primary hover:bg-primary/90 text-primary-foreground rounded-md text-center font-semibold transition-all"
             >

@@ -49,7 +49,7 @@ export const TEAM: Member[] = [
     role: 'Creative Lead', 
     bio: 'Creative Lead — manages visual design and creative direction.', 
     img: '/team/aayan.png',
-    socials: { linkedin: '#' }
+    socials: { linkedin: 'https://www.linkedin.com/in/ayaan-ansari-712706339' }
   },
   { 
     id: 'manvendra', 
@@ -73,7 +73,7 @@ export const TEAM: Member[] = [
     role: 'Graphics Design Lead', 
     bio: 'Graphics Design Lead — creates visual content and graphics.', 
     img: '/team/vaibhav.png',
-    socials: { linkedin: '#' }
+    socials: { linkedin: 'https://www.linkedin.com/in/vaibhav-pandey-6b800b298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' }
   },
   { 
     id: 'ayushman', 
@@ -89,7 +89,7 @@ export const TEAM: Member[] = [
     role: 'Social Media & Promotion Lead', 
     bio: 'Social Media & Promotion Lead — manages social media strategy and promotional campaigns.', 
     img: '/team/adarsh.png',
-    socials: { linkedin: '#' }
+    socials: { linkedin: 'https://www.linkedin.com/in/adarsh-sharma-5a8a042a7?trk=contact-info' }
   },
   { 
     id: 'nitin', 
