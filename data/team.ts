@@ -45,7 +45,7 @@ export const TEAM: Member[] = [
   },
   { 
     id: 'aayan', 
-    name: 'Aayan Ansari', 
+    name: 'Ayaan Ansari', 
     role: 'Creative Lead', 
     bio: 'Creative Lead — manages visual design and creative direction.', 
     img: '/team/aayan.png',
