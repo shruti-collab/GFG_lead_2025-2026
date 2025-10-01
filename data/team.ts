@@ -15,7 +15,7 @@ export const TEAM: Member[] = [
     role: 'Chairperson',
     bio: 'Chairperson — leads the chapter, coordinates vision and strategy.',
     img: '/team/dhruv.png',
-    socials: { linkedin: '#'}
+    socials: { linkedin: 'https://www.linkedin.com/in/dhruv-kumar-b91594259/'}
   },
   {
     id: 'antra',
@@ -23,7 +23,7 @@ export const TEAM: Member[] = [
     role: 'Vice Chairperson',
     bio: 'Vice Chairperson — assists with operations and community outreach.',
     img: '/team/antra.png',
-    socials: { linkedin: '#'}
+    socials: { linkedin: 'https://www.linkedin.com/in/antra-singh-175978332/'}
   },
 
   // Department Leads
@@ -33,7 +33,7 @@ export const TEAM: Member[] = [
     role: 'Campus Mantri', 
     bio: 'Campus Mantri — guides and mentors the team activities.', 
     img: '/team/vithhal.png',
-    socials: { linkedin: '#' }
+    socials: { linkedin: 'https://www.linkedin.com/in/vitthal-dwivedi-81596631b/' }
   },
   { 
     id: 'shruti', 
@@ -41,7 +41,7 @@ export const TEAM: Member[] = [
     role: 'Technical Lead', 
     bio: 'Technical Lead — coordinates workshops and technical content.', 
     img: '/team/shruti.png',
-    socials: { linkedin: '#' }
+    socials: { linkedin: 'https://www.linkedin.com/in/shruti-kumari-a35b302b8/' }
   },
   { 
     id: 'aayan', 
@@ -49,7 +49,7 @@ export const TEAM: Member[] = [
     role: 'Creative Lead', 
     bio: 'Creative Lead — manages visual design and creative direction.', 
     img: '/team/aayan.png',
-    socials: { linkedin: '#' }
+    socials: { linkedin: 'https://www.linkedin.com/in/ayaan-ansari-712706339' }
   },
   { 
     id: 'manvendra', 
@@ -73,7 +73,7 @@ export const TEAM: Member[] = [
     role: 'Graphics Design Lead', 
     bio: 'Graphics Design Lead — creates visual content and graphics.', 
     img: '/team/vaibhav.png',
-    socials: { linkedin: '#' }
+    socials: { linkedin: 'https://www.linkedin.com/in/vaibhav-pandey-6b800b298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' }
   },
   { 
     id: 'ayushman', 
@@ -89,7 +89,7 @@ export const TEAM: Member[] = [
     role: 'Social Media & Promotion Lead', 
     bio: 'Social Media & Promotion Lead — manages social media strategy and promotional campaigns.', 
     img: '/team/adarsh.png',
-    socials: { linkedin: '#' }
+    socials: { linkedin: 'https://www.linkedin.com/in/adarsh-sharma-5a8a042a7?trk=contact-info' }
   },
   { 
     id: 'nitin', 
