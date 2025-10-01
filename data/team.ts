@@ -64,7 +64,7 @@ export const TEAM: Member[] = [
     name: 'Mohd Ali Slim Khan', 
     role: 'Editorial / Blog Lead', 
     bio: 'Editorial / Blog Lead — manages editorial content and blog publications.', 
-    img: '/team/mohd-ali.png',
+    img: '/team/ali.png',
     socials: { linkedin: '#' }
   },
   { 
